@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <FlickrKit.h>
 
 @interface ViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+   // [[FlickrKit sharedFlickrKit] initializeWithAPIKey:<#(NSString *)#> sharedSecret:<#(NSString *)#>];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
