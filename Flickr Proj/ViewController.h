@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *authButton;
 
 @end
+
+//
+//@property (weak, nonatomic) IBOutlet UIButton *photostreamButton;
+//
+//@property (weak, nonatomic) IBOutlet UIButton *authButton;
+//@property (weak, nonatomic) IBOutlet UILabel *authLabel;
+//@property (weak, nonatomic) IBOutlet UILabel *todaysInterestingLabel;
+//@property (weak, nonatomic) IBOutlet UIProgressView *progress;
+//@property (weak, nonatomic) IBOutlet UILabel *progressLabel;
+//@property (weak, nonatomic) IBOutlet UITextField *searchText;
 
