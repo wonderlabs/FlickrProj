@@ -129,6 +129,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="label" destination="RF5-wS-5bN" id="e5i-Gb-oRk"/>
+                                    <segue destination="OEb-am-Ubc" kind="show" identifier="showSearchResults" id="Ij6-At-0Wf"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
