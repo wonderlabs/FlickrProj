@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+@interface ViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UISearchControllerDelegate>
+
+
 @property (weak, nonatomic) IBOutlet UIButton *authButton;
+
+
+- (IBAction)authButtonPressed:(id)sender;
 
 @end
 

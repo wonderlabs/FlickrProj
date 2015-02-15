@@ -31,7 +31,11 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userAuthenticateCallback:) name:@"UserAuthCallbackNotification" object:nil];
     
-    [self.authButton addTarget:self action:@selector(authButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+   // [self.authButton addTarget:self action:@selector(authButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
+   // self.searchBar.showsCancelButton = YES;
+    
+   // [self handleSearch:self.searchBar];
     
     // Check if there is a stored token
     // You should do this once on app launch
@@ -90,6 +94,12 @@
     [self.authButton setTitle:@"Login" forState:UIControlStateNormal];
  //   self.authLabel.text = @"Login to flickr";
 }
+
+//-(void)handleSearch:(UISearchBar *)searchBar{
+//    
+//    NSLog(@"User searched for %@", searchBar.text);
+//    
+//}
 
 #pragma mark - Button Actions
 
@@ -189,6 +199,7 @@
     }];
     
 }
+
 
 - (IBAction)searchPressed:(id)sender {
     [self.view endEditing:YES];

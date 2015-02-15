@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F5763E9DDB5B057C7F23733 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD27F19ED16E684166AC6296 /* libPods.a */; };
 		DD23B4901A8D9BD5008FB5F9 /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23B48F1A8D9BD5008FB5F9 /* AuthViewController.m */; };
+		DD23B4961A8E9822008FB5F9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23B4951A8E9822008FB5F9 /* SearchViewController.m */; };
+		DD23B4991A8EA2E9008FB5F9 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */; };
 		DDE3A3941A8C72AC0084EF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3931A8C72AC0084EF0A /* main.m */; };
 		DDE3A3971A8C72AC0084EF0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3961A8C72AC0084EF0A /* AppDelegate.m */; };
 		DDE3A39A1A8C72AC0084EF0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3991A8C72AC0084EF0A /* ViewController.m */; };
@@ -33,6 +35,10 @@
 		AF9F3E1FD97CDF600451555A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD23B48E1A8D9BD5008FB5F9 /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
 		DD23B48F1A8D9BD5008FB5F9 /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		DD23B4941A8E9822008FB5F9 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		DD23B4951A8E9822008FB5F9 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		DD23B4971A8EA2E9008FB5F9 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		DDE3A38E1A8C72AC0084EF0A /* Flickr Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Proj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE3A3921A8C72AC0084EF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE3A3931A8C72AC0084EF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,9 +120,13 @@
 				DDE3A3991A8C72AC0084EF0A /* ViewController.m */,
 				DD23B48E1A8D9BD5008FB5F9 /* AuthViewController.h */,
 				DD23B48F1A8D9BD5008FB5F9 /* AuthViewController.m */,
+				DD23B4941A8E9822008FB5F9 /* SearchViewController.h */,
+				DD23B4951A8E9822008FB5F9 /* SearchViewController.m */,
 				DDE3A39B1A8C72AC0084EF0A /* Main.storyboard */,
 				DDE3A39E1A8C72AC0084EF0A /* Images.xcassets */,
 				DDE3A3A01A8C72AC0084EF0A /* LaunchScreen.xib */,
+				DD23B4971A8EA2E9008FB5F9 /* CustomTableViewCell.h */,
+				DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */,
 				DDE3A3911A8C72AC0084EF0A /* Supporting Files */,
 			);
 			path = "Flickr Proj";
@@ -285,6 +295,8 @@
 			files = (
 				DD23B4901A8D9BD5008FB5F9 /* AuthViewController.m in Sources */,
 				DDE3A39A1A8C72AC0084EF0A /* ViewController.m in Sources */,
+				DD23B4991A8EA2E9008FB5F9 /* CustomTableViewCell.m in Sources */,
+				DD23B4961A8E9822008FB5F9 /* SearchViewController.m in Sources */,
 				DDE3A3971A8C72AC0084EF0A /* AppDelegate.m in Sources */,
 				DDE3A3941A8C72AC0084EF0A /* main.m in Sources */,
 			);
