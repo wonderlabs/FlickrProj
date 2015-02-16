@@ -11,6 +11,8 @@
 		DD23B4901A8D9BD5008FB5F9 /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23B48F1A8D9BD5008FB5F9 /* AuthViewController.m */; };
 		DD23B4961A8E9822008FB5F9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23B4951A8E9822008FB5F9 /* SearchViewController.m */; };
 		DD23B4991A8EA2E9008FB5F9 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */; };
+		DDD56D591A91548B00225EC5 /* SearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD56D581A91548B00225EC5 /* SearchResultsViewController.m */; };
+		DDD56D5D1A9166EA00225EC5 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD56D5C1A9166EA00225EC5 /* CustomCollectionViewCell.m */; };
 		DDE3A3941A8C72AC0084EF0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3931A8C72AC0084EF0A /* main.m */; };
 		DDE3A3971A8C72AC0084EF0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3961A8C72AC0084EF0A /* AppDelegate.m */; };
 		DDE3A39A1A8C72AC0084EF0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3991A8C72AC0084EF0A /* ViewController.m */; };
@@ -39,6 +41,10 @@
 		DD23B4951A8E9822008FB5F9 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		DD23B4971A8EA2E9008FB5F9 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		DDD56D571A91548B00225EC5 /* SearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsViewController.h; sourceTree = "<group>"; };
+		DDD56D581A91548B00225EC5 /* SearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsViewController.m; sourceTree = "<group>"; };
+		DDD56D5B1A9166EA00225EC5 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		DDD56D5C1A9166EA00225EC5 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		DDE3A38E1A8C72AC0084EF0A /* Flickr Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flickr Proj.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE3A3921A8C72AC0084EF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE3A3931A8C72AC0084EF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,11 +128,15 @@
 				DD23B48F1A8D9BD5008FB5F9 /* AuthViewController.m */,
 				DD23B4941A8E9822008FB5F9 /* SearchViewController.h */,
 				DD23B4951A8E9822008FB5F9 /* SearchViewController.m */,
+				DDD56D571A91548B00225EC5 /* SearchResultsViewController.h */,
+				DDD56D581A91548B00225EC5 /* SearchResultsViewController.m */,
 				DDE3A39B1A8C72AC0084EF0A /* Main.storyboard */,
 				DDE3A39E1A8C72AC0084EF0A /* Images.xcassets */,
 				DDE3A3A01A8C72AC0084EF0A /* LaunchScreen.xib */,
 				DD23B4971A8EA2E9008FB5F9 /* CustomTableViewCell.h */,
 				DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */,
+				DDD56D5B1A9166EA00225EC5 /* CustomCollectionViewCell.h */,
+				DDD56D5C1A9166EA00225EC5 /* CustomCollectionViewCell.m */,
 				DDE3A3911A8C72AC0084EF0A /* Supporting Files */,
 			);
 			path = "Flickr Proj";
@@ -295,10 +305,12 @@
 			files = (
 				DD23B4901A8D9BD5008FB5F9 /* AuthViewController.m in Sources */,
 				DDE3A39A1A8C72AC0084EF0A /* ViewController.m in Sources */,
+				DDD56D591A91548B00225EC5 /* SearchResultsViewController.m in Sources */,
 				DD23B4991A8EA2E9008FB5F9 /* CustomTableViewCell.m in Sources */,
 				DD23B4961A8E9822008FB5F9 /* SearchViewController.m in Sources */,
 				DDE3A3971A8C72AC0084EF0A /* AppDelegate.m in Sources */,
 				DDE3A3941A8C72AC0084EF0A /* main.m in Sources */,
+				DDD56D5D1A9166EA00225EC5 /* CustomCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
