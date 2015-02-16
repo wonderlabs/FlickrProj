@@ -44,16 +44,8 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1H-52-t10">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                        </imageView>
-                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <connections>
-                                    <outlet property="image" destination="j1H-52-t10" id="ee0-CI-Xua"/>
-                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -61,10 +53,14 @@
                             <outlet property="delegate" destination="OEb-am-Ubc" id="Jvh-Q1-lbe"/>
                         </connections>
                     </collectionView>
+                    <navigationItem key="navigationItem" id="lT5-il-VNc"/>
+                    <connections>
+                        <outlet property="myCollectionView" destination="n4i-cq-QJS" id="wKC-iE-pP0"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1yC-8F-eBj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3254" y="1370"/>
+            <point key="canvasLocation" x="4066" y="1370"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cnD-nF-PIE">
@@ -211,6 +207,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qha-cV-c43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1763" y="1381"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9Ga-Oo-eHY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MhZ-mb-MmH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9Ce-3g-EhK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OEb-am-Ubc" kind="relationship" relationship="rootViewController" id="J4w-cs-fnX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oXY-A6-84x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3254" y="1370"/>
         </scene>
     </scenes>
 </document>

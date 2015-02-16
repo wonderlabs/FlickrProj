@@ -242,13 +242,13 @@
 
 #pragma mark - Progress KVO
 
-- (void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-    dispatch_async(dispatch_get_main_queue(), ^{
-        CGFloat progress = [[change objectForKey:NSKeyValueChangeNewKey] floatValue];
-//        self.progress.progress = progress;
-        //[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
-    });
-}
+//- (void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//     //   CGFloat progress = [[change objectForKey:NSKeyValueChangeNewKey] floatValue];
+////        self.progress.progress = progress;
+//        //[super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+//    });
+//}
 
 
 #pragma mark - UIImagePickerControllerDelegate
