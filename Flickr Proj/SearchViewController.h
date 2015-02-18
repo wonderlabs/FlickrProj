@@ -12,6 +12,8 @@
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
 @property (weak, nonatomic) IBOutlet UISearchBar *mySearchBar;
 
+- (IBAction)trashPressed:(UIBarButtonItem *)sender;
+
 @property (nonatomic, strong) NSMutableArray *items;
 @property (nonatomic, strong) UISearchController * searchController;
 

@@ -21,6 +21,8 @@
 		DDE3A39F1A8C72AC0084EF0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE3A39E1A8C72AC0084EF0A /* Images.xcassets */; };
 		DDE3A3A21A8C72AC0084EF0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDE3A3A01A8C72AC0084EF0A /* LaunchScreen.xib */; };
 		DDE3A3AE1A8C72AC0084EF0A /* Flickr_ProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE3A3AD1A8C72AC0084EF0A /* Flickr_ProjTests.m */; };
+		DDFC6F511A93E99C00C42A7D /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFC6F501A93E99C00C42A7D /* TestVC.m */; };
+		DDFC6F541A94555100C42A7D /* FlickrLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC6F531A94555100C42A7D /* FlickrLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		DDE3A3A71A8C72AC0084EF0A /* Flickr ProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flickr ProjTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE3A3AC1A8C72AC0084EF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE3A3AD1A8C72AC0084EF0A /* Flickr_ProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flickr_ProjTests.m; sourceTree = "<group>"; };
+		DDFC6F4F1A93E99C00C42A7D /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		DDFC6F501A93E99C00C42A7D /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		DDFC6F531A94555100C42A7D /* FlickrLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FlickrLogo.png; path = imageFiles/FlickrLogo.png; sourceTree = "<group>"; };
 		FD27F19ED16E684166AC6296 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -135,6 +140,8 @@
 				DDD56D581A91548B00225EC5 /* SearchResultsViewController.m */,
 				DD60C1081A92DBBB00D1646C /* ImageDetailViewController.h */,
 				DD60C1091A92DBBB00D1646C /* ImageDetailViewController.m */,
+				DDFC6F4F1A93E99C00C42A7D /* TestVC.h */,
+				DDFC6F501A93E99C00C42A7D /* TestVC.m */,
 				DDE3A39B1A8C72AC0084EF0A /* Main.storyboard */,
 				DDE3A39E1A8C72AC0084EF0A /* Images.xcassets */,
 				DDE3A3A01A8C72AC0084EF0A /* LaunchScreen.xib */,
@@ -142,6 +149,7 @@
 				DD23B4981A8EA2E9008FB5F9 /* CustomTableViewCell.m */,
 				DDD56D5B1A9166EA00225EC5 /* CustomCollectionViewCell.h */,
 				DDD56D5C1A9166EA00225EC5 /* CustomCollectionViewCell.m */,
+				DDFC6F521A94551500C42A7D /* Images */,
 				DDE3A3911A8C72AC0084EF0A /* Supporting Files */,
 			);
 			path = "Flickr Proj";
@@ -171,6 +179,14 @@
 				DDE3A3AC1A8C72AC0084EF0A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFC6F521A94551500C42A7D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC6F531A94555100C42A7D /* FlickrLogo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE3A39D1A8C72AC0084EF0A /* Main.storyboard in Resources */,
+				DDFC6F541A94555100C42A7D /* FlickrLogo.png in Resources */,
 				DDE3A3A21A8C72AC0084EF0A /* LaunchScreen.xib in Resources */,
 				DDE3A39F1A8C72AC0084EF0A /* Images.xcassets in Resources */,
 			);
@@ -316,6 +333,7 @@
 				DDE3A3971A8C72AC0084EF0A /* AppDelegate.m in Sources */,
 				DDE3A3941A8C72AC0084EF0A /* main.m in Sources */,
 				DDD56D5D1A9166EA00225EC5 /* CustomCollectionViewCell.m in Sources */,
+				DDFC6F511A93E99C00C42A7D /* TestVC.m in Sources */,
 				DD60C10A1A92DBBB00D1646C /* ImageDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

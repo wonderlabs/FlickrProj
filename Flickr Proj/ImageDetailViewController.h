@@ -14,4 +14,6 @@
 @property (nonatomic, strong) UIImage *image;
 @property (strong, nonatomic) IBOutlet UITableView *myTableView;
 
+
+
 @end

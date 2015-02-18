@@ -10,21 +10,10 @@
 
 @interface ViewController : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UISearchControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *loggingButton;
 
-@property (weak, nonatomic) IBOutlet UIButton *authButton;
-
-
-- (IBAction)authButtonPressed:(id)sender;
+- (IBAction)authButtonPressed:(UIBarButtonItem *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
 
 @end
-
-//
-//@property (weak, nonatomic) IBOutlet UIButton *photostreamButton;
-//
-//@property (weak, nonatomic) IBOutlet UIButton *authButton;
-//@property (weak, nonatomic) IBOutlet UILabel *authLabel;
-//@property (weak, nonatomic) IBOutlet UILabel *todaysInterestingLabel;
-//@property (weak, nonatomic) IBOutlet UIProgressView *progress;
-//@property (weak, nonatomic) IBOutlet UILabel *progressLabel;
-//@property (weak, nonatomic) IBOutlet UITextField *searchText;
 
